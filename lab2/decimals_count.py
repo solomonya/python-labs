@@ -14,7 +14,7 @@ def main():
     number = 0;
     print('Введите двухзначное число: ')
     number = int(input())
-    decimals_count = math.floor(number / 10)
+    decimals_count = number // 10
     print(f'Количество десятков в числе {number} равно {decimals_count}')
 
 
